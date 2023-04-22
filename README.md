@@ -10,3 +10,15 @@ Node.js redis integration.
 ⚡  Redis connected successfully!
 🚀 Server running on port 4444 !
 ```
+
+
+Environment variables
+```
+PORT=3000
+DATABASE_URL="mongodb+srv://<username>:<password>@<host>:<port>/<database>?authSource=admin"
+REDIS_URL="redis://localhost:6379"
+
+# Time to auto delete set values
+REDIS_EXPIRY_TIME=10
+`
+``
